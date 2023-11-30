@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Alessio Celentano
 description         : >-
-                      20 y/o from Italy
+                      20 y/o developer from Italy
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : alessiocelentano/alessiocelentano.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -24,7 +24,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Alessio Celentano
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : https://i.imgur.com/Lxr0PVT.png
 # behance           : your_username
 # dribbble          : your_username
   email             : alessiocelentano2003@gmail.com
@@ -33,10 +33,10 @@ author:
 # gitlab            : your_username
   instagram         : alessiocele_
 # kaggle            : your_username
-# linkedin          : your_username
+  linkedin          : alessiocelentano
 # medium            : your_username
 # soundcloud        : your_username
-# spotify           : your_username
+  spotify           : fehxy0sygk7vndlrczas9ekil?si=7f992ad6f5684ffa
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
@@ -47,7 +47,7 @@ author:
 
 
 ### Posts ###
-permalink: /blog/:title
+# permalink: /blog/:title
 
 
 ### Collections ###
@@ -60,8 +60,8 @@ collections:
 
 
 ### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+# disqus:
+#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -93,11 +93,6 @@ defaults:
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###

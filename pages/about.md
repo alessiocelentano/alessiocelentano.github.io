@@ -7,13 +7,23 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi, I am **{{ site.author.name }}** :wave:,
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+I am an Italian software developer currently studying Computer Science at University of Ferrara.
+
+I am a GNU/Linux and Open Source enthusiast experienced with Competitive Programming, Android development, Arduino Programming, Databases, Web Scraping, APIs (Telegram, Discord, Reddit, Spotify, etc...) and more.
+
+## Languages and Tools
+- Python
+- C/C++20
+- Java
+- Kotlin
+- Git
+- Arch Linux
+
+# Prizes
+- 2022 OII (Olimpiadi Italiane di Informatica) finalist
+
 
 <div class="row">
 {% include about/timeline.html %}
